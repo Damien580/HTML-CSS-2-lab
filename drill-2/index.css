@@ -1,0 +1,70 @@
+*{
+    margin: 10px;
+}
+
+header{
+    border: 5px;
+    border-color: black;
+    display: flex;
+    
+}
+
+#one{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    height: 20vh;
+    margin-bottom: 30px;
+    
+}
+
+#box{
+    background-color: blueviolet;
+    height: 70%;
+    width: 5%;
+    position: relative;
+    top: 40px;
+    margin-bottom: 30px;
+
+}
+
+#rectangle{
+    background-color: green;
+    height: 90%;
+    width: 35%;
+    
+}
+
+#circle{
+    background-color: lightskyblue;
+    height: 90%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+#two{
+    border-style: dotted;
+    height: 27vh;
+    padding: 50px;
+    
+}
+#shadowbox{
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 10px rgb(67, 66, 66);
+    
+
+}
+
+button{
+    background-color: white;
+    border-color: antiquewhite;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    height: 30vh;
+    width: 40vh;
+    box-shadow: 5px 3px 3px antiquewhite);
+    
+}
